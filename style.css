@@ -6,9 +6,11 @@
 }
 .flex-container{
     display: flex;
+    padding: 20px;
     background: yellowgreen;
     flex-direction: column;
     /* flex-direction: column-reverse; */   
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
