@@ -17,7 +17,8 @@
 }
 .flex-item3{
     flex-grow: 1;
+    flex-shrink: 0;
 }
-.flex-item1{
+.flex-item2{
     flex-shrink: 0;
 }
