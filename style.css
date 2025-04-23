@@ -93,3 +93,12 @@
     margin: 3px;
     text-align: center;
 }
+
+body{
+    background-color: yellow;
+}
+@media only screen  and (max-width:768px){
+     body{
+        background-color: blue;
+     }
+}
