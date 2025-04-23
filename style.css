@@ -102,3 +102,8 @@ body{
         background-color: blue;
      }
 }
+
+.fullsceen{
+    width: 100vw;
+    height: 100vh;
+}
