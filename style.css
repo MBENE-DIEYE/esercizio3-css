@@ -63,3 +63,12 @@
     text-align: center;
     border: 1px solid black;
 }
+.grid-item6{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-item7{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
