@@ -133,3 +133,17 @@ body{
 .otto-nove{
     grid-column: span 2;
 }
+
+.grid{
+    display: grid;
+    background: rgb(113, 113, 238);
+    padding: 20px;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: auto 200px;
+}
+
+.grid > div{
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid black;
+}
