@@ -56,9 +56,9 @@
     background: rgb(113, 113, 238);
     padding: 20px;
     grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
 }
 
 .grid-container > div{
@@ -66,15 +66,7 @@
     text-align: center;
     border: 1px solid black;
 }
-.grid-item6{
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.grid-item7{
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
+ 
 
 .grid_container{
     display: flex;
@@ -132,4 +124,12 @@ body{
 .fullsceen{
     width: 100vw;
     height: 100vh;
+}
+
+/* .uno-quatro{
+    grid-row: span 2;
+} */
+
+.otto-nove{
+    grid-column: span 2;
 }
