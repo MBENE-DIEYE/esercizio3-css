@@ -126,9 +126,9 @@ body{
     height: 100vh;
 }
 
-/* .uno-quatro{
+.uno-quatro{
     grid-row: span 2;
-} */
+}
 
 .otto-nove{
     grid-column: span 2;
