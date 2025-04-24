@@ -20,12 +20,13 @@
 
 .flex-item{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     flex-direction: row;  
+    width: 5%;
     /* 
     flex-wrap: wrap;
     display: flex;
-    width: 200px; */
+    width: 200px; */ 
 }
  .item1{
     /* flex-shrink: 0; */
@@ -107,7 +108,25 @@ body{
     body{
         background-color: orange;
     }    
+
 }
+
+@media only screen  and (max-width:600px) { 
+
+    .flex-container{
+        width: 50%;
+    }
+
+}
+
+
+@media only screen  and (max-width:600px) { 
+
+    .item{
+        width: 70px;
+    }
+}
+
 
 
 .fullsceen{
